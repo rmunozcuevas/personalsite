@@ -1,0 +1,80 @@
+:root {
+  --background-color: #FDE68A;  
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+main {
+    padding: 8rem 2rem;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    gap: 2rem;
+    background-color: var(--background-color);
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+nav {
+    background-color: #BC6C25;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.125rem;
+    height: 5rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(188, 108, 37, 1);
+    backdrop-filter: blur(5px);
+
+}
+
+nav .left a {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+nav .right a {
+    font-size: .7rem;
+    font-weight: 600;
+    margin: 0 0.625rem;
+}
+
+#about-projects .headshot {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 37px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+footer {
+    height: 50px;
+    background-color: #606C38;
+    padding: 10px;
+    background-position: fixed;
+}
+
+

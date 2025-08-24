@@ -1,0 +1,26 @@
+html {
+    font-family: Instrument
+}
+
+body {
+    background: url(../images/glacier.jpg);
+    color: black;
+
+}
+
+h1,h2 {
+    text-align: center;
+}
+a {
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    color:white;
+}
+
+img {
+    height:50px;
+    width: 50px;
+}
