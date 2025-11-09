@@ -2,9 +2,10 @@ body{
     background-color:bisque;
 }
 
-section {
+section  {
     width: 300px;
     border: 15px solid blue;
     margin: 20px;
     padding: 50px;
+    background: rgba(75, 97, 89, 0.3);
 }
