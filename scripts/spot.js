@@ -12,3 +12,8 @@ function changeColor() {
 
 }
 
+function changeSkills() {
+        alert("Skills tab was changed.")
+        
+}
+
